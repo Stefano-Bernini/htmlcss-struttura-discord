@@ -51,9 +51,125 @@ header{
 .login{
     text-align: right;
     padding-right: 10px;
+
 }
 
+/* MAIN */
+/* -------SECTION_1-------- */
+/* size, color and flex properties section 1 */
+.section_1{
+    height: 600px;
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* size, color and border container */
+.container_section_1{
+    width: 60%;
+    height: 450px;
+    background-color: hotpink;
+    border-style: dashed;
+}
 
+/* -------SECTION_2-------- */
+/* size and flex properties section */
+.section_2{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* size container */
+.container_section_2{
+    width: 70%;
+    height: 550px;
+}
+/* size and display:flex row */
+.row_section_2{
+    height: 100%;
+    display: flex;
+}
+/* size, coor and border left col */
+.col_section_2_left{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(30,144,255,1);
+    border-style: dashed;
+}
+/* size, coor and border right col */
+.col_section_2_right{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255,192,203,1);
+    border-style: dashed;
+}
 
+/* -------SECTION_3-------- */
+/* size, color and flex properties section */
+.section_3{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+/* size container */
+.container_section_3{
+    width: 70%;
+    height: 550px;
+}
+/* size and display:flex row */
+.row_section_3{
+    height: 100%;
+    display: flex;
+}
+/* size, coor and border left col */
+.col_section_3_left{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(30,144,255,1);
+    border-style: dashed;
+}
+/* size, coor and border right col */
+.col_section_3_right{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255,192,203,1);
+    border-style: dashed;
+}
+
+/* -------SECTION_4-------- */
+/* size and flex properties section */
+.section_4{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* size container */
+.container_section_4{
+    width: 70%;
+    height: 550px;
+}
+/* size and display:flex row */
+.row_section_4{
+    height: 100%;
+    display: flex;
+}
+/* size, coor and border left col */
+.col_section_4_left{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(30,144,255,1);
+    border-style: dashed;
+}
+/* size, coor and border right col */
+.col_section_4_right{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(255,192,203,1);
+    border-style: dashed;
+}
 
 
